@@ -1,0 +1,11 @@
+name: Track Forks
+on:
+  fork: 
+    types:
+      - created
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Notification
+        run: echo "A fork was created for your repository!"
