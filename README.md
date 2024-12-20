@@ -18,7 +18,7 @@ The dataset can be accessed at: [Rice Disease Classification Dataset](https://hu
 ## Training Highlights
 - **Hardware:** Trained on two **Tesla T4** GPU
 ### **📉Progression**
-![Label Distribution Plot](Training/progression-graphs.png)
+![Label Distribution Plot](Training/progression_graphs.png)
 
 
 ## 🔒 License
