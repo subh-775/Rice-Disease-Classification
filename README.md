@@ -2,7 +2,7 @@
 This project utilizes deep learning and Transfer Learning with ResNet50 to classify rice crop diseases.
 
 ## 🪶 Usage 
-You can directly use the model available at : <a href="https://huggingface.co/spaces/Subh775/RiceSage">Here</a>
+You can directly use the model available at : <a href="https://huggingface.co/spaces/Subh775/RiceSage">HuggingFace Spaces here.</a>
 
 ## 🌿 Project Overview
 This project aims to develop a robust classification model to identify the health condition of rice crops based on their images.
