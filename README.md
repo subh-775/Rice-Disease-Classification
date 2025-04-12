@@ -24,13 +24,13 @@ A significant improvement was achieved by switching to EfficientNet-B3 and using
 <table border="1">
   <tr>
     <th>Dataset</th>
-    <th>Original dataset</th>
-    <th>After data-augmentation</th>
+    <th>Before</th>
+    <th>After</th>
   </tr>
   <tr>
     <td><b>changes</b></td>
-    <th></th>
-    <th></th>
+    <td><img src="tests/original_ds.jpg" width="180"></td>
+    <td><img src="tests/augmented_ds.jpg" width="180"></td>
   </tr>
 </table>
 
@@ -45,7 +45,7 @@ The model classifies rice crop images into four categories:
 | **Healthy** | Rice plants without visible disease symptoms |
 
 ## 📊 Training Visualization
-![Training Progression Graph](Training/progression_graphs.png)
+![with Resnet-50](tests/progression_graph.jpg)
 *Figure: Model performance metrics during training*
 
 ## 🚀 Deployment
