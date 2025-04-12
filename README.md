@@ -29,7 +29,7 @@ A significant improvement was achieved by switching to EfficientNet-B3 and using
   </tr>
   <tr>
     <td><b>changes</b></td>
-    <td><img src="tests/original_ds.jpg" width="180"></td>
+    <td><img src="tests/original_ds.png" width="180"></td>
     <td><img src="tests/augmented_ds.jpg" width="180"></td>
   </tr>
 </table>
