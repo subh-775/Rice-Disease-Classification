@@ -1,52 +1,71 @@
 # 🌾 Rice Disease Classification
 
-# Phase 1:  Using ResNet50
-This project utilizes deep learning and Transfer Learning with ResNet50 to classify rice crop diseases.
+## Project Evolution
+This project has evolved through two major phases, improving classification accuracy of rice crop diseases using deep learning techniques.
 
-## 🪶 Usage 
-The model can be directy accessed through : <a href="https://huggingface.co/spaces/Subh775/RiceSage">HF Spaces</a>.
+### Phase 1: ResNet50 Implementation
+The initial implementation utilized transfer learning with ResNet50 architecture:
+- **Accuracy:** Achieved 79% classification accuracy
+- **Training Details:**
+  - Hardware: Tesla T4 GPU
+  - Loss Function: CrossEntropy Loss
+  - Optimizer: Adam
+  - Training Epochs: 50
+- **Limitations:** While functional, accuracy levels were insufficient for reliable field application
 
-## 🌿 Project Overview
-This project aims to develop a robust classification model to identify the health condition of rice crops based on their images.
+### Phase 2: EfficientNet-B3 Implementation
+A significant improvement was achieved by switching to EfficientNet-B3 and using an augmented dataset:
+- **Accuracy:** Improved to 94.30%
+- **Dataset:** Enhanced with augmented samples from the original dataset
+- **Dataset Source:** [Augmented Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented)
 
-## 🦅 Key Features
-**Disease Classification:** The model can classify rice crop images into four categories:
-- **Brown Spot:** A fungal disease characterized by brown oval-shaped spots on leaves.
-- **Healthy:** Represents rice plants without visible disease symptoms.
-- **Leaf Blast:** Lesions caused by the fungus *Magnaporthe oryzae* on leaves.
-- **Neck Blast:** Lesions affecting the panicle neck caused by the same fungus.
-
-The dataset can be accessed at: [Rice Disease Classification Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Classification)
-
-## ☘️ Training Highlights
-- **Hardware:** Trained on **Tesla T4** GPU .
-- **Loss Function:** CrossEntropy Loss.
-- **PyTorch Optimizer:** Adam.
-- **Epochs:** 50.
+- Here's the original and augmented rows details:
 - 
-### **📉Progression during Training**
-![Label Distribution Plot](Training/progression_graphs.png)
+<table border="1">
+  <tr>
+    <th>Dataset</th>
+    <th>Original dataset</th>
+    <th>After data-augmentation</th>
+  </tr>
+  <tr>
+    <td><b>changes</b></td>
+    <th></th>
+    <th></th>
+  </tr>
+</table>
 
-## Observation
-- **Accuracy:** Although the model achieved accuracy of only 79%(bad), it needs further training.
+## 🌿 Disease Classification
+The model classifies rice crop images into four categories:
 
+| Disease | Description |
+|---------|-------------|
+| **Brown Spot** | Fungal disease characterized by brown oval-shaped spots on leaves |
+| **Leaf Blast** | Lesions caused by the fungus *Magnaporthe oryzae* on leaves |
+| **Neck Blast** | Lesions affecting the panicle neck, caused by the same fungus as leaf blast |
+| **Healthy** | Rice plants without visible disease symptoms |
 
-# Phase 2: Using EfficientNet-B3
-retrained the model using Efficientet-B3 on the new augmented dataset: [Augmented_rows](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented), which is being augmented on the original dataset used above.
+## 📊 Training Visualization
+![Training Progression Graph](Training/progression_graphs.png)
+*Figure: Model performance metrics during training*
 
+## 🚀 Deployment
+The model is available through two Hugging Face deployments:
+- [RiceSage](https://huggingface.co/spaces/Subh775/RiceSage) (ResNet50 implementation)
+- [RiceVantage](https://huggingface.co/spaces/Subh775/RiceVantage) (EfficientNet-B3 implementation - Recommended)
+
+## 📚 Resources
+- **Original Dataset:** [Rice Disease Classification Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Classification)
+- **Augmented Dataset:** [Rice Disease Augmented Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented)
 
 ## 🔒 License
 This project is licensed under the Apache License 2.0.
 
 ```
 Apache License 2.0
-
 Licensed under the Apache License, Version 2.0 (the "License");
 You may not use this file except in compliance with the License.
 You may obtain a copy of the License at
-
    http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -54,7 +73,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
----
-
-This project leverages cutting-edge deep learning techniques to address real-world agricultural challenges, empowering farmers with early and accurate disease detection capabilities.
-
+## 💡 Impact
+This project leverages cutting-edge deep learning techniques to address real-world agricultural challenges, empowering farmers with early and accurate disease detection capabilities. Early identification of rice diseases can lead to timely interventions, reduced crop losses, and more sustainable farming practices.
