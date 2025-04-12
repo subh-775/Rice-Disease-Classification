@@ -1,4 +1,6 @@
-# Phase 1: 🌾 Rice Disease Classification Using ResNet50
+# 🌾 Rice Disease Classification
+
+# Phase 1:  Using ResNet50
 This project utilizes deep learning and Transfer Learning with ResNet50 to classify rice crop diseases.
 
 ## 🪶 Usage 
@@ -29,7 +31,8 @@ The dataset can be accessed at: [Rice Disease Classification Dataset](https://hu
 - **Accuracy:** Although the model achieved accuracy of only 79%(bad), it needs further training.
 
 
-# Phase 2: Retraining 🌾 Rice Disease Classification Using Efficient B3
+# Phase 2: Using EfficientNet-B3
+retrained the model using Efficientet-B3 on the new augmented dataset: [Augmented_rows](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented), which is being augmented on the original dataset used above.
 
 
 ## 🔒 License
