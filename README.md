@@ -45,22 +45,20 @@ The model classifies rice crop images into four categories:
 | **Healthy** | Rice plants without visible disease symptoms |
 
 ## 📊 Training Visualization
-<table border="1">
+<table>
   <tr>
-    <th>Training</th>
-    <th>Graphs</th>
-  </tr>
-  <tr>
-    <td><b>Accuracy</b></td>
-    <td><img src="tests/train_accuracy.png" width="180"></td>
-  </tr>
-  <tr>
-    <td><b>Loss</b></td>
-    <td><img src="tests/train_loss.png" width="180"></td>
-  </tr>
-  <tr>
-    <td>Learning rate progression</td>
-    <td><img src="tests/lr_progression.png" width="180"></td>
+    <td align="center">
+      <strong>Model Accuracy</strong><br>
+      <img src="tests/train_accuracy.png" width="220" alt="Training Accuracy">
+    </td>
+    <td align="center">
+      <strong>Training Loss</strong><br>
+      <img src="tests/train_loss.png" width="220" alt="Training Loss">
+    </td>
+    <td align="center">
+      <strong>Learning Rate Progression</strong><br>
+      <img src="tests/lr_progression.png" width="220" alt="Learning Rate">
+    </td>
   </tr>
 </table>
 
