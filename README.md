@@ -45,13 +45,30 @@ The model classifies rice crop images into four categories:
 | **Healthy** | Rice plants without visible disease symptoms |
 
 ## 📊 Training Visualization
-![with Resnet-50](tests/progression_graphs.png)
+<table border="1">
+  <tr>
+    <th>Training</th>
+    <th>Graphs</th>
+  </tr>
+  <tr>
+    <td><b>Accuracy</b></td>
+    <td><img src="tests/train_accuracy.png" width="180"></td>
+  </tr>
+  <tr>
+    <td><b>Loss</b></td>
+    <td><img src="tests/train_loss.png" width="180"></td>
+  </tr>
+  <tr>
+    <td>Learning rate progression</td>
+    <td><img src="tests/lr_progression.png" width="180"></td>
+  </tr>
+</table>
+
 *Figure: Model performance metrics during training*
 
 ## 🚀 Deployment
-The model is available through two Hugging Face deployments:
-- [RiceSage](https://huggingface.co/spaces/Subh775/RiceSage) (ResNet50 implementation)
-- [RiceVantage](https://huggingface.co/spaces/Subh775/RiceVantage) (EfficientNet-B3 implementation - Recommended)
+The model is available at Hugging Face for free tier use:
+- [RiceVantage](https://huggingface.co/spaces/Subh775/RiceVantage) (EfficientNet-B3 implementation)
 
 ## 📚 Resources
 - **Original Dataset:** [Rice Disease Classification Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Classification)
