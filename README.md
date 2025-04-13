@@ -87,6 +87,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-## 💡 Impact
-This project leverages cutting-edge deep learning techniques to address real-world agricultural challenges, empowering farmers with early and accurate disease detection capabilities. Early identification of rice diseases can lead to timely interventions, reduced crop losses, and more sustainable farming practices.
