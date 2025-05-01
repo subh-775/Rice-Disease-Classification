@@ -64,10 +64,6 @@ The model classifies rice crop images into four categories:
 
 *Figure: Model performance metrics during training*
 
-## 🚀 Deployment
-The model is available at Hugging Face for free tier use:
-- [RiceVantage](https://huggingface.co/spaces/Subh775/RiceVantage) (EfficientNet-B3 implementation)
-
 ## 📚 Resources
 - **Original Dataset:** [Rice Disease Classification Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Classification)
 - **Augmented Dataset:** [Rice Disease Augmented Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented)
