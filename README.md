@@ -69,7 +69,7 @@ The model classifies rice crop images into four categories:
 - **Augmented Dataset:** [Rice Disease Augmented Dataset](https://huggingface.co/datasets/Subh775/Rice-Disease-Augmented)
 
 ## 🔒 License
-This project is licensed under the Apache License 2.0.
+This project is licensed under the **Apache License 2.0** .
 
 ```
 Apache License 2.0
